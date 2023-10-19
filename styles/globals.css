@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+header{
+  @apply bg-gray-900 font-roboto;
+}
+body{
+  @apply p-0 m-0 bg-bghome;
+}
+.btn-primary{
+  @apply bg-primary cursor-pointer text-white rounded-md py-1 px-3 text-sm;
+}
+.btn-readmore{
+  @apply bg-transparent border rounded-sm text-sm py-1 px-3 border-white;
+}
+.product-image{
+  @apply max-w-md max-h-24;
+}
+.btn-payment{
+  @apply bg-black cursor-pointer text-white rounded-sm py-1 px-5 text-sm;
+}
+.input-text{
+  @apply border;
+}
+table.basic{
+    @apply w-full;
+}
+table.basic thead{
+ @apply text-left uppercase;
+}
+.btn-cart{
+  @apply bg-gray-200 w-5 m-2;
+}
+input{
+    @apply border border-gray-200 rounded-md px-4 py-1 w-full hover:border-blue-900 ;
+    @apply shadow-md;
+    @apply mb-2;
+}
